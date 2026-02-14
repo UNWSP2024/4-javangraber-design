@@ -23,7 +23,7 @@ def main():
         total += tickets
 
         # Make a validation loop
-        if tickets < 0:
+        if tickets <= 0:
             print('Error! That is invalid.')
             tickets = int(input(f'Enter the real number of tickets for {film}: '))
 
