@@ -35,11 +35,11 @@ def main():
     print(f'The total months is {number_of_months}')
 
     # Display the total rainfall
-    print(f'The total rainfall is {total:.2f}')
+    print(f'The total rainfall is {total:.2f} inches')
 
     # Calculate and Display the average rainfall
     average_rainfall = total / number_of_months
-    print(f'The average rainfall for the period is {average_rainfall:.2f}')
+    print(f'The average rainfall for the period is {average_rainfall:.2f} inches')
     ######################
 
 
