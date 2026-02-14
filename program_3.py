@@ -25,7 +25,7 @@ def main():
             inches = float(input('Enter the number of inches for the months in order: '))
             total += inches
 
-            # Create validation
+            # Create validation loop
             if inches < 0:
                 print('Error! That is invalid input!')
                 inches = float(input('Enter the real number of inches for the months in order: '))
